@@ -1,7 +1,7 @@
 # flex
 *面试题:实现下图的效果*
 
-:![](image/flex.png) 
+:![](../image/flex.png) 
 
 ## 解决思路
 >     * float+边距(想想就无比麻烦，没有去写)
