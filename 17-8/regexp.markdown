@@ -1,4 +1,4 @@
-# 正则匹配  
+# 常用的正则 
 一直就在用可一直记忆不清楚的知识点。于是，花点时间简单的整理一下。
 ### 创建表达式  
 * 内建构造器RegExp()创造   
@@ -10,6 +10,7 @@
     -g global [全局匹配]  [默认false]
     -i ignoreCase [忽略大小写 ]  [默认false]
     -m multiline [跨行搜索]  [默认false]
+    -u Unicode [处理编码 es6]
     lastIndex  [搜索开始的索引位]  [默认0]
     spurce [存储正则的匹配模式]
 ### 相关方法 
@@ -32,3 +33,4 @@
     var email = "qqqian0819@gmail.com";
     email.replace(/(.*)@(.*)\..*/,"$1"); // qqqian0819
 ```
+#####  剩下的es6 的东西以后再补充，毕竟现在用的正则就已经很强大了
