@@ -32,5 +32,5 @@ $("html").animate({scrollTop:$(links).offset().top}, 1000, function(){
         console.log('aa');
     });
 ```  
-这是自己为了偷懒方便兼容firfox和chrome而导致的小bug。  
-#### 解决
+这是自己为了偷懒方便兼容firfox和chrome而导致的小bug。
+google body ; firfox html   
